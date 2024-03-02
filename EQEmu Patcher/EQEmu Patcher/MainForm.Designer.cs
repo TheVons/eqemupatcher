@@ -55,6 +55,8 @@
             this.txtList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.txtList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtList.HideSelection = false;
             this.txtList.Location = new System.Drawing.Point(10, 6);
             this.txtList.Multiline = true;
@@ -79,7 +81,6 @@
             // 
             this.splashLogo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.splashLogo.Image = global::EQEmu_Patcher.Properties.Resources.rof;
             this.splashLogo.Location = new System.Drawing.Point(10, 6);
             this.splashLogo.Margin = new System.Windows.Forms.Padding(0);
             this.splashLogo.MinimumSize = new System.Drawing.Size(400, 450);
@@ -103,6 +104,7 @@
             // chkAutoPlay
             // 
             this.chkAutoPlay.AutoSize = true;
+            this.chkAutoPlay.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.chkAutoPlay.Location = new System.Drawing.Point(238, 463);
             this.chkAutoPlay.Name = "chkAutoPlay";
             this.chkAutoPlay.Size = new System.Drawing.Size(71, 17);
@@ -114,6 +116,7 @@
             // chkAutoPatch
             // 
             this.chkAutoPatch.AutoSize = true;
+            this.chkAutoPatch.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.chkAutoPatch.Location = new System.Drawing.Point(113, 463);
             this.chkAutoPatch.Name = "chkAutoPatch";
             this.chkAutoPatch.Size = new System.Drawing.Size(79, 17);
@@ -130,6 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
             this.ClientSize = new System.Drawing.Size(416, 572);
             this.Controls.Add(this.chkAutoPatch);
             this.Controls.Add(this.chkAutoPlay);
