@@ -57,6 +57,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
             this.txtList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtList.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.txtList.HideSelection = false;
             this.txtList.Location = new System.Drawing.Point(10, 6);
             this.txtList.Multiline = true;
