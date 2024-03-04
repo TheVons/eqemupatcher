@@ -1,7 +1,7 @@
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
-* text eol=crlf
+* text eol=lf
 *.txt binary
 *.eff binary
 *.xml binary
@@ -51,6 +51,7 @@
 *.png   binary
 *.ico   binary
 *.gif   binary
+*.mp3   binary
 
 ###############################################################################
 # diff behavior for common document formats
