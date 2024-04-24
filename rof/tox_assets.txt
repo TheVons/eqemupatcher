@@ -1,0 +1,3 @@
+Tradeskill_objects.eqg
+caveswitches.eqg
+classic.eqg
